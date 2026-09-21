@@ -1,0 +1,31 @@
+
+html {
+    background-color: rgb(37, 37, 37);
+    color: rgb(184, 182, 182);
+}
+
+body {
+    /* fixed layout */
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(204, 255, 204);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+article {
+
+}
+
+footer {
+
+}
+
+#output {
+    
+}
