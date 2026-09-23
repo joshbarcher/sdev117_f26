@@ -1,0 +1,11 @@
+/*
+    Stylesheet for my variables page
+    File: styles.css
+    Date: 9/23/26
+*/
+
+/* single line comment */
+body {
+    color: rgb(172, 236, 172);
+    text-transform: uppercase;
+}

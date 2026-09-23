@@ -1,4 +1,3 @@
-
 // We can send output to a page in 3 ways!
 // #1 - popups (deprecated)
 // #2 - browser console/terminal (debug)
@@ -11,6 +10,7 @@ console.warn("Warning on the console!");
 console.info("Info on the console!");
 console.error("Error!");
 
+//selecting the paragraph with an id of "output"
 const para = document.querySelector("#output");
 para.textContent = "Hello, from script.js!";
 
