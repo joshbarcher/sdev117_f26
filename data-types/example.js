@@ -40,3 +40,13 @@ console.log(`The result is: ${results}!!!!`);
 //same result with a string template for multiply
 console.log(`${num1} * ${num2} = ${results}`);
 
+//create three variables with your first, middle initial and last name
+
+//then print them in a string template literal
+// expected output: "First Middle. Last"
+const first = "John";
+const middle = "Q";
+const last = "Public";
+
+console.log(`${first} ${middle}. ${last}`);
+
