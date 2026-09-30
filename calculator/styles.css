@@ -1,0 +1,10 @@
+
+label, input, div, button {
+    display: block;
+    margin: 10px;
+}
+
+div {
+    border: 1px solid gray;
+    width: 500px;
+}
