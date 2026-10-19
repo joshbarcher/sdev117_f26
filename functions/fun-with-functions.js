@@ -1,8 +1,9 @@
 
-const result = add(3);
-console.log(`Result is: ${result}`);
+//if a function doesn't return a value with "return" keyword
+//then it implictly returns undefined
+const message = print("Hello class!");
+console.log(message);
 
-function add(num1) {
-    return num1 + 1;
+function print(msg) {
+    console.log("Message", msg);
 }
-
