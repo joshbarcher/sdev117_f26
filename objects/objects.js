@@ -38,21 +38,29 @@ let book = {
     },
     nextPage: function() {
         this.curPage++;
+    },
+    printBook: function() {
+        console.log(`${this.title} by ${this.author}`);
+        console.log("*".repeat(20));
+        console.log("The author has written", this.author.books.length, "books!")
+        console.log(`Pages: ${this.pages}`);
+        console.log(`Format: ${this.format}`);
+        console.log(`Genres: ${this.genres.length}`);
+        console.log("*".repeat(20));
+    },
+    printGenres: function() {
+        console.log("Book genres:");
+        for (const genre of this.genres) {
+            console.log("Genre", genre);
+        }
     }
 }
-
-console.log(`${book.title} by ${book.author}`);
-console.log("*".repeat(20));
-console.log("The author has written", book.author.books.length, "books!")
-console.log(`Pages: ${book.pages}`);
-console.log(`Format: ${book.format}`);
-console.log(`Genres: ${book.genres.length}`);
-console.log("*".repeat(20));
 
 book.setCurrentPage(93);
 book.nextPage();
 book.nextPage();
 console.log(book);
+book.printBook();
 
 for (const prop in book) {
     console.log("Book property", prop);
