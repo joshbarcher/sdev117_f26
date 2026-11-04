@@ -12,3 +12,10 @@ for (const item of items) {
 
     item.textContent = "$" + newValue;
 }
+
+const heading = document.querySelector("h1");
+
+heading.style.color = "rgb(182, 182, 255)";
+heading.style.fontFamily = "'Times New Roman', Times, serif";
+heading.style.textDecoration = "underline rgb(182, 182, 255)";
+
