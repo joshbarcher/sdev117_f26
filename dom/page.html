@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Selecting Elements</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <h1>Selecting Elements</h1>
-        <ul>
+        <ul class="highlight italics">
             <li>amazon.com</li>
             <li>abcnews.com</li>
             <li>youtube.com</li>
@@ -14,7 +15,7 @@
         </ul>
 
         <label for="price">Prices</label>
-        <select id="price">
+        <select id="price" class="italics">
             <option>$2.99</option>
             <option>$3.99</option>
             <option>$4.99</option>
@@ -22,7 +23,8 @@
         </select>
 
         <h1>Some Paragraphs</h1>
-        <p class="odd">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button id="hide">Hide Paragraphs</button>
+        <p class="odd deemphasize fancy colorful">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p class="odd">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -30,6 +32,14 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p class="odd">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-        <script src="dom.js"></script>
+        <aside>
+            Content goes here...
+        </aside>
+
+        <img src="logo.png" alt="This is the site logo">
+        <label title="A tooltip">For a field</label>
+        <a href="https://www.google.com">Google</a>
+
+        <script src="scripts/dom.js"></script>
     </body>
 </html>

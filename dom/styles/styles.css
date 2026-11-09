@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.deemphasize {
+    color: rgb(120, 120, 120, 0.5);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: rgb(255, 213, 134);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
