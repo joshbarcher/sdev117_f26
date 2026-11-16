@@ -19,3 +19,38 @@ h1 {
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
 }
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, tr, th, td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+form section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+form section label {
+    min-width: 80px;
+}
+
+form section input {
+    width: 100%;
+}

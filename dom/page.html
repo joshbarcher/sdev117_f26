@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Selecting Elements</h1>
-        <ul class="highlight italics">
+        <ul>
             <li>amazon.com</li>
             <li>abcnews.com</li>
             <li>youtube.com</li>
@@ -39,6 +39,52 @@
         <img src="logo.png" alt="This is the site logo">
         <label title="A tooltip">For a field</label>
         <a href="https://www.google.com">Google</a>
+
+        <form>
+            <section>
+                <label>Team</label>
+                <input type="text" id="team">
+            </section>
+            <section>
+                <label>Wins</label>
+                <input type="number" id="wins">
+            </section>
+            <section>
+                <label>Losses</label>
+                <input type="number" id="losses">
+            </section>
+            <section>
+                <label>Divisions</label>
+                <input type="text" id="division">
+            </section>
+
+            <button type="submit" id="add-team">Add Team!</button>
+        </form>
+
+        <table id="baseball">
+            <thead>
+                <tr>
+                    <th>Team Name</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Bracket</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Seattle Mariners</td>
+                    <td>20</td>
+                    <td>16</td>
+                    <td>PNW</td>
+                </tr>
+                <tr>
+                    <td>Oakland Athletics</td>
+                    <td>30</td>
+                    <td>6</td>
+                    <td>PNW</td>
+                </tr>
+            </tbody>
+        </table>
 
         <script src="scripts/dom.js"></script>
     </body>
