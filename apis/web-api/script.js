@@ -13,13 +13,14 @@ window.onload = () => {
         //fetch returns a promise object (which promises to report when
         //it finishes - by calling the "callback function")
         fetch(url, config)
-            .then((response) => { 
-                return response.json();
-            })
-            .then((json) => {
-                loadCatImage(json);
-            })
+            .then(getResponse)
+            .then(loadCatImage)
     }
+}
+
+function getResponse(response) {
+    //convert the body of the http response to JSON
+    return response.json();
 }
 
 function loadCatImage(json) {
@@ -28,5 +29,6 @@ function loadCatImage(json) {
 
     //update the img on the page
     const img = document.querySelector("#cat-img");
+    img.style.display = "block"; //show the <img> element
     img.src = url;
 }

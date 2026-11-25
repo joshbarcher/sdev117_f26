@@ -1,0 +1,28 @@
+
+html {
+    background-color: rgb(49, 49, 39);
+}
+
+body {
+    background-color: rgb(182, 168, 135);
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(51, 37, 27);
+    padding: 4px;
+    border-bottom: 1px solid rgb(86, 60, 42);
+}
+
+img {
+    display: none;
+    max-width: 400px;
+    max-height: 400px;
+}
